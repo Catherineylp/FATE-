@@ -56,6 +56,7 @@ nvcc -V
 
 ### 装带GPU的pytorch
 进入[pytorch官网](https://pytorch.org/)，选择对应的cuda版本，复制命令安装。
+
 <img src=./pytorch版本.jpg>
 
 （安装过程出现timed out，原因是源不稳定，多试几次）
