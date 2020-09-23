@@ -46,25 +46,25 @@ virtualenv -p python3 venv
 ```bash
 source venv/bin/activate
 ```
-<img src=./进入虚拟环境.jpg>
+<img src=https://raw.githubusercontent.com/Catherineylp/FATE-/master/%E8%BF%9B%E5%85%A5%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83.jpg>
 
 ### 查看cuda版本
 ```bash
 nvcc -V
 ```
-<img src=./查看cuda版本.jpg>
+<img src=https://raw.githubusercontent.com/Catherineylp/FATE-/master/%E6%9F%A5%E7%9C%8Bcuda%E7%89%88%E6%9C%AC.jpg>
 
 ### 装带GPU的pytorch
 进入[pytorch官网](https://pytorch.org/)，选择对应的cuda版本，复制命令安装。
 
-<img src=./pytorch版本.jpg>
+<img src=https://raw.githubusercontent.com/Catherineylp/FATE-/master/pytorch%E7%89%88%E6%9C%AC.jpg>
 
 （安装过程出现timed out，原因是源不稳定，多试几次）
 
-<img src=./pytorch安装完成.jpg>
+<img src=https://raw.githubusercontent.com/Catherineylp/FATE-/master/pytorch%E5%AE%89%E8%A3%85%E5%AE%8C%E6%88%90.jpg>
 
 ### 测试pytorch(GPU)是否安装成功
-<img src=./测试pytorch是否安装成功.jpg>
+<img src=https://raw.githubusercontent.com/Catherineylp/FATE-/master/%E6%B5%8B%E8%AF%95pytorch%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F.jpg>
 
 能看到上述结果，说明pytorch gpu版本安装成功。
 
@@ -77,13 +77,13 @@ pip3 install cupy_cuda90 //如果服务器上cuda是9.0版本
 pip3 install pip -U
 pip3 config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ```
-<img src=./换tuna源.jpg>
+<img src=https://raw.githubusercontent.com/Catherineylp/FATE-/master/%E6%8D%A2tuna%E6%BA%90.jpg>
 
 ### 从github上拖代码:
 ```bash
 wget https://github.com/FederatedAI/FATE.git
 ```
-<img src=./github源码.jpg>
+<img src=https://raw.githubusercontent.com/Catherineylp/FATE-/master/github%E6%BA%90%E7%A0%81.jpg>
 
 ### 解压代码 
 ```bash
@@ -95,7 +95,7 @@ upzip FATE.zip
 pip install -r requirements.txt
 ```
 
-<img src=./安装依赖.jpg>
+<img src=https://raw.githubusercontent.com/Catherineylp/FATE-/master/%E5%AE%89%E8%A3%85%E4%BE%9D%E8%B5%96.jpg>
 
 出现上述报错，安装gcc。
 
@@ -103,4 +103,5 @@ pip install -r requirements.txt
  sudo yum install gcc-c++
  ```
  安装gcc后再次安装依赖，安装成功如下图所示。
- <img src=./依赖安装成功.jpg>
+ 
+ <img src=https://raw.githubusercontent.com/Catherineylp/FATE-/master/%E4%BE%9D%E8%B5%96%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F.jpg>
